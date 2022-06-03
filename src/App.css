@@ -1,0 +1,38 @@
+
+.bg-dark {
+  background-color: #313a46 !important;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #8391a2 !important;
+}
+
+.nav-link svg {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.nav-link.active, .nav-link:hover {
+  color: #fff !important;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+main {
+  padding: 10px 20px;
+  height: 100vh;
+  width: 100%;
+}
